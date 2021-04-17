@@ -5,14 +5,14 @@
 # Try coding this with nested loops
 
 dna = 'ATGGCCTTT'
+in_frame = 0
+#for i in range(len(dna)): #single loop
+	#print(i, i%3, dna[i])
 
-for i in range(len(dna)): #single loop
-	print(i, i%3, dna[i])
-
-for i in range(1): #nested loop
-	for i in range(len(dna)):
-		print(i, i%3, dna[i])
-
+for position in range(len(dna)): #position within dna string
+	for frame in range(3): #position within codon
+		in_frame = position % 3
+	print(position, in_frame, dna[position])
 """
 python3 frame.py
 0 0 A
