@@ -26,10 +26,9 @@ for j in range(len(seq)-int(w-1)):
 	print(f'{j} {seq[0:10]} {gc_count/11:.4f}')
 	gc_count = 0
 	seq = seq[1:]+seq[0]
-#pros: easier to read and troubleshoot because everything is right in front
-#pro: also can't get stuck in an infinite loop
+#pro: easier to read and troubleshoot because everything is right in front
 #con: more lines of code to go through
-
+#con: longer operation time because of these calculations
 """
 python3 gc_win2.py
 0 ACGACGCAGGA 0.6364
