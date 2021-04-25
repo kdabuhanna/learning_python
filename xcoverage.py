@@ -7,6 +7,8 @@
 # Note that you will not sample the ends of a chromosome very well
 # So don't count the first and last parts of a chromsome
 
+# Did with Maribel A. 
+
 import sys
 import random
 #make variables of input in order genome size, read number and read length
