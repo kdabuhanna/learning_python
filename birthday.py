@@ -28,7 +28,7 @@ for i in range(trials):
 		if day > 1: 
 			duplicates += 1
 			break #only need to count 1 duplicate per calendar
-print(duplicates, trials, duplicates/trials)
+print(duplicates/trials)
 """
 repeat over amount of trials
 	create empty calender

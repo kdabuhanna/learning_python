@@ -14,13 +14,12 @@ prob = []
 for s in sys.argv[1:]:
 	prob.append(float(s))
 
-print(sum(prob))
-assert(math.isclose(sum(prob), 1, abs_tol = 0.2) 
+assert(math.isclose(sum(prob), 1, abs_tol = 0.2)) 
 
 H = 0
 for i in range(len(prob)):
 	H -= prob[i] * math.log2(prob[i])
-print(H)
+print(f'{H:.3f}')
 
 """
 python3 entropy.py 0.1 0.2 0.3 0.4
