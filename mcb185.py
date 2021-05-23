@@ -62,8 +62,8 @@ gcode = {
 	}
 
 def translate(seq):
-	for seq in sys.argv[1:]:
 		prot = ''
+		seq = seq.upper()
 		for i in range(0, len(seq)-2, 3):
 			codon = seq[i:i+3]
 			if codon in gcode:
@@ -71,3 +71,30 @@ def translate(seq):
 			else:
 				prot = 'X'
 		return prot
+
+def anti(dna):
+	seq = ''
+	for c in dna[::-1]:
+		if   c == 'A': seq += 'T'
+		elif c == 'C': seq += 'G'
+		elif c == 'G': seq += 'C'
+		elif c == 'T': seq += 'A'
+		else: seq += 'N'
+	return seq
+
+def longestorf(seq):
+	longestorf = ''
+	for i in range(len(seq)-2):
+		start = None
+		stop = None
+		if seq[i:i+3] == 'ATG': 
+			start = i
+			for j in range(i, len(seq)-2, 3):
+				codon = seq[j:j+3]
+				if codon == 'TAA' or codon == 'TAG' or codon == 'TGA':
+					stop = j
+					break
+		if stop != None:
+			if len(longestorf) < len(seq[i:j+3]):
+				longestorf = seq[i:j+3]
+	return longestorf
