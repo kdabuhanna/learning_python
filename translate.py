@@ -3,7 +3,7 @@ import mcb185
 
 parser = argparse.ArgumentParser(description='translate RNAs to proteins')
 parser.add_argument('--seq', required = True, type = str, nargs = '+', 	
-	metavar='<str>', help = 'DNA sequence (file or sequences separated by space))')
+	metavar='<str>', help = 'DNA sequence (file or sequences separated by spaces))')
 arg = parser.parse_args()
 
 if '.fa' in arg.seq:
