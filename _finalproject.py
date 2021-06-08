@@ -261,17 +261,17 @@ import csv #imports ability to open csv files
 with open('2002kings.csv') as csv_file: 
 	csv_open = csv.DictReader(csv_file) #this creates a dictionary for the csv
 
-	for line in csv_open:
+	#for line in csv_open:
 		#print(line) #prints lines in the dictionary
 #NOTE: Run the previous loop and the next lop separately.
-g_count = 0 #counts PGs or SGs in dataset
-f_count = 0 #counts SFs or PFs in dataset
-c_count = 0 #counts Cs in dataset
-for line in csv_open:
-	player = line #because csv_open is not a dictionary, this allows us to use each line as a dictionary
-	if 'G' in player['Position']: g_count += 1
-	if 'F' in player['Position']: f_count += 1
-	if 'C' in player['Position']: c_count += 1
+	g_count = 0 #counts PGs or SGs in dataset
+	f_count = 0 #counts SFs or PFs in dataset
+	c_count = 0 #counts Cs in dataset
+	for line in csv_open:
+		player = line #because csv_open is not a dictionary, this allows us to use each line as a dictionary
+		if 'G' in player['Position']: g_count += 1
+		if 'F' in player['Position']: f_count += 1
+		if 'C' in player['Position']: c_count += 1
 
 	pos_counts = [g_count, f_count, c_count]
 	print(pos_counts)
