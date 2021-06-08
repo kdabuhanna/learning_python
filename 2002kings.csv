@@ -1,15 +1,15 @@
-﻿"No.,Player,Pos,Ht,Wt,Birth Date,,Exp,College"
-"10,Mike Bibby\bibbymi01,PG,6-1,190,May 13 1978,us,3,Arizona"
-"52,Chucky Brown\brownch01,SF,6-7,214,February 29 1968,us,12,NC State"
-"13,Doug Christie\chrisdo01,SG,6-6,200,May 9 1970,us,9,Pepperdine"
-"8,Mateen Cleaves\cleavma01,PG,6-2,205,September 7 1977,us,1,Michigan State"
-"21,Vlade Divac\divacvl01,C,7-1,243,February 3 1968,rs,12,"
-"51,Lawrence Funderburke\fundela01,PF,6-9,230,December 15 1970,us,4,Indiana Ohio State"
-"24,Bobby Jackson\jacksbo01,PG,6-1,185,March 13 1973,us,4,Minnesota"
-"31,Scot Pollard\pollasc01,C,6-11,265,February 12 1975,us,4,Kansas"
-"25,Brent Price\pricebr01,PG,6-1,165,December 9 1968,us,8,South Carolina Oklahoma"
-"52,Jabari Smith\smithja01,C,6-11,250,February 12 1977,us,1,LSU"
-"16,Peja Stojaković\stojape01,SF,6-10,229,June 9 1977,hr,3,"
-"5,Hedo Türkoğlu\turkohe01,SF,6-10,220,March 19 1979,tr,1,"
-"3,Gerald Wallace\wallage01,SF,6-7,215,July 23 1982,us,R,Alabama"
-"4,Chris Webber\webbech01,PF,6-9,245,March 1 1973,us,8,Michigan"
+Jersey Number,Player Name,Position,Height,Weight,Birth Date,Country,Years Experience,College
+10,Mike Bibby,PG,6-1,190,05/13/78,USA,3,Arizona
+52,Chucky Brown,SF,6-7,214,02/29/68,USA,12,NC State
+13,Doug Christie,SG,6-6,200,05/09/70,USA,9,Pepperdine
+8,Mateen Cleaves,PG,6-2,205,09/07/77,USA,1,Michigan State
+21,Vlade Divac,C,7-1,243,02/03/68,Serbia,12,Not Available
+51,Lawrence Funderburke,PF,6-9,230,12/15/70,USA,4,Indiana / Ohio State
+24,Bobby Jackson,PG,6-1,185,03/13/73,USA,4,Minnesota
+31,Scot Pollard,C,6-11,265,02/12/75,USA,4,Kansas
+25,Brent Price,PG,6-1,165,12/09/68,USA,8,South Carolina / Oklahoma
+52,Jabari Smith,C,6-11,250,02/12/77,USA,1,LSU
+16,Peja Stojaković,SF,6-10,229,06/09/77,Croatia,3,Not Available
+5,Hedo Türkoğlu,SF,6-10,220,03/19/79,Turkey,1,Not Available
+3,Gerald Wallace,SF,6-7,215,07/23/82,USA,R,Alabama
+4,Chris Webber,PF,6-9,245,03/01/73,USA,8,Michigan
