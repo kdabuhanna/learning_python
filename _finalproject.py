@@ -31,7 +31,7 @@
 
 #Now that the matplotlib library is on your computer, we can now import the library.
 
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 
 #You can refer to pyplot as plt with "as", saving some characters and your fingers.
 #You can also use this syntax to import pyplot:
